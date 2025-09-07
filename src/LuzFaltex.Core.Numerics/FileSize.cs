@@ -102,12 +102,32 @@ namespace LuzFaltex.Core.Numerics
         /// <returns>A new instance of <see cref="FileSize"/>.</returns>
         public static FileSize FromTerabytes(int terabytes) => From((ulong)terabytes * TerabyteBase);
 
+        /// <summary>
+        /// Accepts the specified number of <paramref name="kibibytes"/> to create a <see cref="FileSize"/>.
+        /// </summary>
+        /// <param name="kibibytes">The number of kibibytes.</param>
+        /// <returns>A new instance of <see cref="FileSize"/>.</returns>
         public static FileSize FromKibibytes(int kibibytes) => From((ulong)kibibytes * KibibyteBase);
 
+        /// <summary>
+        /// Accepts the specified number of <paramref name="mebibytes"/> to create a <see cref="FileSize"/>.
+        /// </summary>
+        /// <param name="mebibytes">The number of mebibytes.</param>
+        /// <returns>A new instance of <see cref="FileSize"/>.</returns>
         public static FileSize FromMebibytes(int mebibytes) => From((ulong)mebibytes * MebibyteBase);
 
+        /// <summary>
+        /// Accepts the specified number of <paramref name="gibibytes"/> to create a <see cref="FileSize"/>.
+        /// </summary>
+        /// <param name="gibibytes">The number of gibibytes.</param>
+        /// <returns>A new instance of <see cref="FileSize"/>.</returns>
         public static FileSize FromGibibytes(int gibibytes) => From((ulong)gibibytes * GibibyteBase);
 
+        /// <summary>
+        /// Accepts the specified number of <paramref name="tebibytes"/> to create a <see cref="FileSize"/>.
+        /// </summary>
+        /// <param name="tebibytes">The number of tebibytes.</param>
+        /// <returns>A new instance of <see cref="FileSize"/>.</returns>
         public static FileSize FromTebibytes(int tebibytes) => From((ulong)tebibytes * TebibyteBase);
     }
 }

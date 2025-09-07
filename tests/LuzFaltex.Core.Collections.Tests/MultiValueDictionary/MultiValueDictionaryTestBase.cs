@@ -25,7 +25,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
-
 namespace LuzFaltex.Core.Collections.Tests.MultiValueDictionary
 {
     /// <summary>

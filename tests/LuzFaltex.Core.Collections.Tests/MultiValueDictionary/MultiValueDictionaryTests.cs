@@ -23,7 +23,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Applications.Core.Common.Collections;
+using LuzFaltex.Core.Collections;
 using LuzFaltex.Core.Collections.Tests.MultiValueDictionary;
 
 #pragma warning disable SA1600 // Elements must be documented
