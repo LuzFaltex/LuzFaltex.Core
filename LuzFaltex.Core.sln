@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2EEC65BD-676E-419E-BCDA-85E8B1A8D397}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FC470A5-200C-47D7-A7F2-7FE94BCD1EC9}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+		LICENSE = LICENSE
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuzFaltex.Core.Numerics", "src\LuzFaltex.Core.Numerics\LuzFaltex.Core.Numerics.csproj", "{800F9D2C-2223-4B05-B7DE-1C4F9BEDFFAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuzFaltex.Core.Analyzers", "src\LuzFaltex.Core.Analyzers\LuzFaltex.Core.Analyzers.csproj", "{07A481B3-CF94-464F-AA84-66B454CD4400}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuzFaltex.Core.Analyzers.Tests", "tests\LuzFaltex.Core.Analyzers.Tests\LuzFaltex.Core.Analyzers.Tests.csproj", "{064C5E99-B738-4C8E-8EAB-817015BADF28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuzFaltex.Core.Configuration", "src\LuzFaltex.Core.Configuration\LuzFaltex.Core.Configuration.csproj", "{F0F578A0-DC70-47A3-9437-DE05E6849ADC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{800F9D2C-2223-4B05-B7DE-1C4F9BEDFFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800F9D2C-2223-4B05-B7DE-1C4F9BEDFFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800F9D2C-2223-4B05-B7DE-1C4F9BEDFFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800F9D2C-2223-4B05-B7DE-1C4F9BEDFFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A481B3-CF94-464F-AA84-66B454CD4400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A481B3-CF94-464F-AA84-66B454CD4400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A481B3-CF94-464F-AA84-66B454CD4400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A481B3-CF94-464F-AA84-66B454CD4400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064C5E99-B738-4C8E-8EAB-817015BADF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064C5E99-B738-4C8E-8EAB-817015BADF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064C5E99-B738-4C8E-8EAB-817015BADF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064C5E99-B738-4C8E-8EAB-817015BADF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0F578A0-DC70-47A3-9437-DE05E6849ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F578A0-DC70-47A3-9437-DE05E6849ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0F578A0-DC70-47A3-9437-DE05E6849ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0F578A0-DC70-47A3-9437-DE05E6849ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{800F9D2C-2223-4B05-B7DE-1C4F9BEDFFAE} = {2EEC65BD-676E-419E-BCDA-85E8B1A8D397}
+		{07A481B3-CF94-464F-AA84-66B454CD4400} = {2EEC65BD-676E-419E-BCDA-85E8B1A8D397}
+		{064C5E99-B738-4C8E-8EAB-817015BADF28} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F0F578A0-DC70-47A3-9437-DE05E6849ADC} = {2EEC65BD-676E-419E-BCDA-85E8B1A8D397}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AB3B6F5-9384-4F83-B21E-17F50AF12719}
+	EndGlobalSection
+EndGlobal
