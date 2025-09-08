@@ -1,5 +1,5 @@
 ﻿//
-//  DirectoriesConfigurationBase.cs
+//  FolderConfigurationBase.cs
 //
 //  Author:
 //       LuzFaltex Contributors <support@luzfaltex.com>
@@ -20,23 +20,18 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace LuzFaltex.Core.Configuration.Models
 {
     /// <summary>
     /// Represents a configuration section named <see cref="ConfigurationConstants.Directories"/> used for setting directory paths.
     /// </summary>
-    public abstract class DirectoriesConfigurationBase : IApplicationConfiguration
+    public abstract class FolderConfigurationBase : IApplicationConfiguration
     {
         /// <inheritdoc/>
         public static string ConfigurationSectionName => ConfigurationConstants.Directories;
 
         /// <inheritdoc/>
-        public static string GetFullyQualifiedSectionName() => ConfigurationSectionName;
+        public static string GetFullyQualifiedSectionName()
+            => ConfigurationSectionName;
     }
 }

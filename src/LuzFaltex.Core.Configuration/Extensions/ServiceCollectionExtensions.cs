@@ -177,6 +177,9 @@ namespace LuzFaltex.Core.Configuration.Extensions
             return builder;
         }
 
+#pragma warning disable SA1600, CS1591
+        // TODO: Change this method to accept a parameter differentiating between scoped, singleton, and transient.
+        // Also consider keyed.
         public static IServiceCollection AddScopedOptional<TInterface, TLeft, TRight>
         (
             this IServiceCollection services,
@@ -200,4 +203,5 @@ namespace LuzFaltex.Core.Configuration.Extensions
             };
         }
     }
+#pragma warning restore SA1600, CS1591
 }
